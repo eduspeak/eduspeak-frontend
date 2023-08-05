@@ -43,10 +43,7 @@ function App() {
                 />
               </svg>
             </button>
-            <div
-              className="hidden w-full md:block md:w-auto"
-              id="navbar-default"
-            >
+            <div className="hidden w-full md:block md:w-auto" id="navbar-default">
               <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
                   <a
@@ -89,21 +86,14 @@ function App() {
               </div>
               <div className="w-[45vw] bg-slate-500 rounded-r-[40px] mt-4 text-white py-6">
                 <p className="pl-12 pr-4">
-                  EduSpeak adalah partner dalam membuka kemampuan bahasa Inggris
-                  secara online,
+                  EduSpeak adalah partner dalam membuka kemampuan bahasa Inggris secara online,
                 </p>
-                <p className="pl-12 pr-4">
-                  Akses kelas kapan saja dan dimana saja.
-                </p>
+                <p className="pl-12 pr-4">Akses kelas kapan saja dan dimana saja.</p>
               </div>
             </div>
           </div>
           <div className="flex justify-start items-center ">
-            <img
-              className="h-auto max-w-lg w-full"
-              src={modelUtama}
-              alt="Model Utama"
-            />
+            <img className="h-auto max-w-lg w-full" src={modelUtama} alt="Model Utama" />
           </div>
         </div>
       </div>
