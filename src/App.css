@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Slider */
+.slick-dots {
+  bottom: 3px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: white !important;
+}
+
+/* Background gradiasi */
+.gradient-bg {
+  background-image: linear-gradient(to right, #00ffff, #00ced1);
+}
+
+.slick-dots li button:before {
+  color: seashell !important;
+}
+
 .App {
   text-align: center;
 }
