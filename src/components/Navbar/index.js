@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="bg-white border-gray-200 dark:bg-gray-900">
+    <div className="bg-[#222E50]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center">
           <img
@@ -36,32 +36,32 @@ function Navbar() {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-            <li>
+          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-[#222E50] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li className="w-full h-full p-1">
               <Link to="/">
-                <div className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500">
+                <div className="block py-1 pl-3 pr-4 text-white hover:underline">
                   Home
                 </div>
               </Link>
             </li>
-            <li>
+            <li className="w-full h-full p-1">
               <Link to="/course">
-                <div className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500">
+                <div className="block py-1 pl-3 pr-4 text-white hover:underline">
                   Course
                 </div>
               </Link>
             </li>
-            <li>
+            <li className="w-full h-full p-1">
               <Link to="/dashboard">
-                <div className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500">
+                <div className="block py-1 pl-3 pr-4 text-white hover:underline">
                   Dashboard
                 </div>
               </Link>
             </li>
-            <li>
+            <li className="w-full h-full p-1 border-[2px] border-white">
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                className="block py-1 pl-3 pr-4 text-white"
                 aria-current="page"
               >
                 Login
