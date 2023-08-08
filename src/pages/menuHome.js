@@ -56,11 +56,7 @@ function Home() {
           </div>
           <div className="flex justify-end items-center pr-[11rem]">
             <div className="-mt-16 w-[26rem] h-[26rem] absolute rounded-full bg-gradient-to-r from-[#e9d985] to-[#f9e5b5] blur-[10px]"></div>
-            <img
-              className="h-[22rem] w-[27rem] z-10 -mt-12"
-              src={modelUtama}
-              alt="Model Utama"
-            />
+            <img className="h-[22rem] w-[27rem] z-10 -mt-12" src={modelUtama} alt="Model Utama" />
           </div>
         </div>
       </div>
@@ -71,11 +67,7 @@ function Home() {
             <div className="place-self-center ">
               <div className="flex flex-row">
                 <div className="pr-4">
-                  <img
-                    className="h-auto w-10"
-                    src={iconPendaftar}
-                    alt="Icon Pendaftar"
-                  />
+                  <img className="h-auto w-10" src={iconPendaftar} alt="Icon Pendaftar" />
                 </div>
                 <div className="grid grid-rows-2">
                   <div className="font-bold text-2xl">5000+</div>
@@ -90,11 +82,7 @@ function Home() {
             <div className="place-self-center ">
               <div className="flex flex-row">
                 <div className="pr-4">
-                  <img
-                    className="h-auto w-10"
-                    src={iconInstructor}
-                    alt="Icon Instuktur"
-                  />
+                  <img className="h-auto w-10" src={iconInstructor} alt="Icon Instuktur" />
                 </div>
                 <div className="grid grid-rows-2">
                   <div className="font-bold text-2xl">100+</div>
@@ -108,11 +96,7 @@ function Home() {
             <div className="place-self-center ">
               <div className="flex flex-row">
                 <div className="pr-4">
-                  <img
-                    className="h-auto w-10"
-                    src={iconMateri}
-                    alt="Icon Materi"
-                  />
+                  <img className="h-auto w-10" src={iconMateri} alt="Icon Materi" />
                 </div>
                 <div className="grid grid-rows-2">
                   <div className="font-bold text-2xl">150+</div>
@@ -129,11 +113,7 @@ function Home() {
               <div className="grid grid-cols-2 ">
                 <div className="flex items-center h-full ">
                   <div>
-                    <img
-                      className="h-auto w-16"
-                      src={IconNurulFikri}
-                      alt="Icon Materi"
-                    />
+                    <img className="h-auto w-16" src={IconNurulFikri} alt="Icon Materi" />
                   </div>
                   <div className="text-gray-600">
                     <p>SEKOLAH TINGGI TEKNOLOGI</p>
@@ -143,11 +123,7 @@ function Home() {
 
                 <div className="flex items-center h-full">
                   <div>
-                    <img
-                      className="h-auto w-16"
-                      src={IconGDSC}
-                      alt="Icon Materi"
-                    />
+                    <img className="h-auto w-16" src={IconGDSC} alt="Icon Materi" />
                   </div>
                   <div className="text-gray-600 ml-4">
                     <p>GDSC STT TERPADU NF</p>
@@ -169,103 +145,66 @@ function Home() {
             <div className="grid grid-cols-3 gap-8 mt-6">
               <div className="bg-white p-10 rounded-3xl flex flex-col">
                 <div>
-                  <img
-                    className="h-auto w-10"
-                    src={noSatu}
-                    alt="Icon Instuktur"
-                  />
+                  <img className="h-auto w-10" src={noSatu} alt="Icon Instuktur" />
                 </div>
-                <div className="font-semibold pt-4 pb-2 text-lg">
-                  Kursus Gratis
-                </div>
+                <div className="font-semibold pt-4 pb-2 text-lg">Kursus Gratis</div>
                 <div>
-                  Kami menyediakan beberapa kursus gratis untuk menunjang
-                  ketersediaan pendidikan untuk masyarakat kurang mampu
+                  Kami menyediakan beberapa kursus gratis untuk menunjang ketersediaan pendidikan
+                  untuk masyarakat kurang mampu
                 </div>
               </div>
 
               <div className="bg-white p-10 rounded-3xl flex flex-col">
                 <div>
-                  <img
-                    className="h-auto w-10"
-                    src={noDua}
-                    alt="Icon Instuktur"
-                  />
+                  <img className="h-auto w-10" src={noDua} alt="Icon Instuktur" />
                 </div>
-                <div className="font-semibold pt-4 pb-2 text-lg">
-                  Akses Selamanya
-                </div>
+                <div className="font-semibold pt-4 pb-2 text-lg">Akses Selamanya</div>
                 <div>
-                  Semua kursus yang telah kamu daftar bisa diakses selamanya
-                  sehingga belajar kamu lebih nyaman dan tidak terburu-buru
+                  Semua kursus yang telah kamu daftar bisa diakses selamanya sehingga belajar kamu
+                  lebih nyaman dan tidak terburu-buru
                 </div>
               </div>
               <div className="bg-white p-10 rounded-3xl flex flex-col">
                 <div>
-                  <img
-                    className="h-auto w-10"
-                    src={noTiga}
-                    alt="Icon Instuktur"
-                  />
+                  <img className="h-auto w-10" src={noTiga} alt="Icon Instuktur" />
                 </div>
-                <div className="font-semibold pt-4 pb-2 text-lg">
-                  Grup Konsultasi
-                </div>
+                <div className="font-semibold pt-4 pb-2 text-lg">Grup Konsultasi</div>
                 <div>
-                  Terdapat grup konsultasi yang berguna jika kamu ingin
-                  menanyakan suatu pertanyaan dan kamu juga bisa mebuka diskusi
-                  baru
+                  Terdapat grup konsultasi yang berguna jika kamu ingin menanyakan suatu pertanyaan
+                  dan kamu juga bisa mebuka diskusi baru
                 </div>
               </div>
             </div>
             <div className="grid grid-cols-3 gap-8 mt-6">
               <div className="bg-white p-10 rounded-3xl flex flex-col">
                 <div>
-                  <img
-                    className="h-auto w-10"
-                    src={noEmpat}
-                    alt="Icon Instuktur"
-                  />
+                  <img className="h-auto w-10" src={noEmpat} alt="Icon Instuktur" />
                 </div>
-                <div className="font-semibold pt-4 pb-2 text-lg">
-                  Sertifikat dan Portofolio
-                </div>
+                <div className="font-semibold pt-4 pb-2 text-lg">Sertifikat dan Portofolio</div>
                 <div>
-                  Setelah menyelesaikan kursus kamu akan mendapatkan sertifikat
-                  serta portofolio dari project kursus yang telah diselesaikan
+                  Setelah menyelesaikan kursus kamu akan mendapatkan sertifikat serta portofolio
+                  dari project kursus yang telah diselesaikan
                 </div>
               </div>
 
               <div className="bg-white p-10 rounded-3xl flex flex-col">
                 <div>
-                  <img
-                    className="h-auto w-10"
-                    src={noLima}
-                    alt="Icon Instuktur"
-                  />
+                  <img className="h-auto w-10" src={noLima} alt="Icon Instuktur" />
                 </div>
-                <div className="font-semibold pt-4 pb-2 text-lg">
-                  Belajar Lebih Terarah
-                </div>
+                <div className="font-semibold pt-4 pb-2 text-lg">Belajar Lebih Terarah</div>
                 <div>
-                  Kursus menyediakan kursus dari level dasar hingga expert
-                  sehingga semua bisa belajar dengan layanan yang kami sediakan
+                  Kursus menyediakan kursus dari level dasar hingga expert sehingga semua bisa
+                  belajar dengan layanan yang kami sediakan
                 </div>
               </div>
               <div className="bg-white p-10 rounded-3xl flex flex-col">
                 <div>
-                  <img
-                    className="h-auto w-10"
-                    src={noEnam}
-                    alt="Icon Instuktur"
-                  />
+                  <img className="h-auto w-10" src={noEnam} alt="Icon Instuktur" />
                 </div>
-                <div className="font-semibold pt-4 pb-2 text-lg">
-                  Instruktur Berpengalaman
-                </div>
+                <div className="font-semibold pt-4 pb-2 text-lg">Instruktur Berpengalaman</div>
                 <div>
-                  Kami mempunyai instruktur berpengalaman yang diambil dari
-                  dunia industri yang tak diragukan lagi pengalamannya
+                  Kami mempunyai instruktur berpengalaman yang diambil dari dunia industri yang tak
+                  diragukan lagi pengalamannya
                 </div>
               </div>
             </div>
@@ -280,16 +219,12 @@ function Home() {
             EDUSPEAK Layanan E-Learning Gratis Untuk Membantu Kamu Bertumbuh
           </div>
           <div className="text-slate-200 mt-6">
-            Eduspeak diharapkan bisa menjadi layanan yang bermanfaat bagi
-            kedepanya dalam bidang pendidikan.
+            Eduspeak diharapkan bisa menjadi layanan yang bermanfaat bagi kedepanya dalam bidang
+            pendidikan.
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <img
-            className="h-auto max-w-[19rem] w-full"
-            src={aboutUs}
-            alt="Gambar AboutUs"
-          />
+          <img className="h-auto max-w-[19rem] w-full" src={aboutUs} alt="Gambar AboutUs" />
         </div>
       </div>
       {/* Section 5 */}
@@ -317,17 +252,17 @@ function Home() {
               </svg>
               <blockquote>
                 <p className="text-xl italic font-medium line-clamp-2">
-                  "Flowbite is just awesome. It contains tons of predesigned
-                  components and pages starting from login screen to complex
-                  dashboard. Perfect choice for your next SaaS application."
+                  "Flowbite is just awesome. It contains tons of predesigned components and pages
+                  starting from login screen to complex dashboard. Perfect choice for your next SaaS
+                  application."
                 </p>
               </blockquote>
               <figcaption className="flex items-center justify-center mt-6 space-x-3">
-                <img
+                {/* <img
                   className="w-6 h-6 rounded-full"
                   src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
                   alt="profile picture"
-                />
+                /> */}
                 <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                   <cite className="pr-3 font-medium">Micheal Gough</cite>
                   <cite className="pl-3 text-sm">CEO at Google</cite>
@@ -346,17 +281,17 @@ function Home() {
               </svg>
               <blockquote>
                 <p className="text-xl italic font-medium line-clamp-2">
-                  "Flowbite is just awesome. It contains tons of predesigned
-                  components and pages starting from login screen to complex
-                  dashboard. Perfect choice for your next SaaS application."
+                  "Flowbite is just awesome. It contains tons of predesigned components and pages
+                  starting from login screen to complex dashboard. Perfect choice for your next SaaS
+                  application."
                 </p>
               </blockquote>
               <figcaption className="flex items-center justify-center mt-6 space-x-3">
-                <img
+                {/* <img
                   className="w-6 h-6 rounded-full"
                   src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
                   alt="profile picture"
-                />
+                /> */}
                 <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                   <cite className="pr-3 font-medium">Micheal Gough</cite>
                   <cite className="pl-3 text-sm">CEO at Google</cite>
@@ -375,17 +310,17 @@ function Home() {
               </svg>
               <blockquote>
                 <p className="text-xl italic font-medium line-clamp-2">
-                  "Flowbite is just awesome. It contains tons of predesigned
-                  components and pages starting from login screen to complex
-                  dashboard. Perfect choice for your next SaaS application."
+                  "Flowbite is just awesome. It contains tons of predesigned components and pages
+                  starting from login screen to complex dashboard. Perfect choice for your next SaaS
+                  application."
                 </p>
               </blockquote>
               <figcaption className="flex items-center justify-center mt-6 space-x-3">
-                <img
+                {/* <img
                   className="w-6 h-6 rounded-full"
                   src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
                   alt="profile picture"
-                />
+                /> */}
                 <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                   <cite className="pr-3 font-medium">Micheal Gough</cite>
                   <cite className="pl-3 text-sm">CEO at Google</cite>
@@ -404,17 +339,17 @@ function Home() {
               </svg>
               <blockquote>
                 <p className="text-xl italic font-medium line-clamp-2">
-                  "Flowbite is just awesome. It contains tons of predesigned
-                  components and pages starting from login screen to complex
-                  dashboard. Perfect choice for your next SaaS application."
+                  "Flowbite is just awesome. It contains tons of predesigned components and pages
+                  starting from login screen to complex dashboard. Perfect choice for your next SaaS
+                  application."
                 </p>
               </blockquote>
               <figcaption className="flex items-center justify-center mt-6 space-x-3">
-                <img
+                {/* <img
                   className="w-6 h-6 rounded-full"
                   src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
                   alt="profile picture"
-                />
+                /> */}
                 <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                   <cite className="pr-3 font-medium">Micheal Gough</cite>
                   <cite className="pl-3 text-sm">CEO at Google</cite>
@@ -430,7 +365,7 @@ function Home() {
           <div class="mx-auto w-full p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
               <div class="mb-6 md:mb-0">
-                <a href="#" class="flex items-center">
+                <a href="." class="flex items-center">
                   <img
                     src="https://flowbite.com/docs/images/logo.svg"
                     class="h-8 mr-3"
@@ -443,43 +378,30 @@ function Home() {
               </div>
               <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
-                  <h2 class="mb-6 text-sm font-semibold uppercase text-white">
-                    Artikel
-                  </h2>
+                  <h2 class="mb-6 text-sm font-semibold uppercase text-white">Artikel</h2>
                   <ul class="text-white font-medium">
                     <li class="mb-4">
-                      <a href="#" class="hover:underline">
+                      <a href="." class="hover:underline">
                         Terbaru
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://tailwindcss.com/"
-                        class="hover:underline"
-                      >
+                      <a href="https://tailwindcss.com/" class="hover:underline">
                         Populer
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h2 class="mb-6 text-sm font-semibold text-white">
-                    Follow us
-                  </h2>
+                  <h2 class="mb-6 text-sm font-semibold text-white">Follow us</h2>
                   <ul class="text-white font-medium">
                     <li class="mb-4">
-                      <a
-                        href="https://github.com/themesberg/flowbite"
-                        class="hover:underline "
-                      >
+                      <a href="https://github.com/themesberg/flowbite" class="hover:underline ">
                         Github
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://discord.gg/4eeurUVvTy"
-                        class="hover:underline"
-                      >
+                      <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">
                         Discord
                       </a>
                     </li>
@@ -489,12 +411,12 @@ function Home() {
                   <h2 class="mb-6 text-sm font-semibold text-white">Legal</h2>
                   <ul class="text-white font-medium">
                     <li class="mb-4">
-                      <a href="#" class="hover:underline">
+                      <a href="." class="hover:underline">
                         Privacy Policy
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="hover:underline">
+                      <a href="." class="hover:underline">
                         Terms &amp; Conditions
                       </a>
                     </li>
@@ -506,13 +428,13 @@ function Home() {
             <div class="sm:flex sm:items-center sm:justify-between">
               <span class="text-sm text-white sm:text-center">
                 © 2023{" "}
-                <a href="#" class="hover:underline">
+                <a href="." class="hover:underline">
                   EduSpeak™
                 </a>
                 . All Rights Reserved.
               </span>
               <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-                <a href="#" class="text-white hover:text-slate-400">
+                <a href="." class="text-white hover:text-slate-400">
                   <svg
                     class="w-4 h-4"
                     aria-hidden="true"
@@ -528,7 +450,7 @@ function Home() {
                   </svg>
                   <span class="sr-only">Facebook page</span>
                 </a>
-                <a href="#" class="text-white hover:text-slate-400">
+                <a href="." class="text-white hover:text-slate-400">
                   <svg
                     class="w-4 h-4"
                     aria-hidden="true"
@@ -540,7 +462,7 @@ function Home() {
                   </svg>
                   <span class="sr-only">Discord community</span>
                 </a>
-                <a href="#" class="text-white hover:text-slate-400">
+                <a href="." class="text-white hover:text-slate-400">
                   <svg
                     class="w-4 h-4"
                     aria-hidden="true"
@@ -556,7 +478,7 @@ function Home() {
                   </svg>
                   <span class="sr-only">Twitter page</span>
                 </a>
-                <a href="#" class="text-white hover:text-slate-400">
+                <a href="." class="text-white hover:text-slate-400">
                   <svg
                     class="w-4 h-4"
                     aria-hidden="true"
@@ -572,7 +494,7 @@ function Home() {
                   </svg>
                   <span class="sr-only">GitHub account</span>
                 </a>
-                <a href="#" class="text-white hover:text-slate-400">
+                <a href="." class="text-white hover:text-slate-400">
                   <svg
                     class="w-4 h-4"
                     aria-hidden="true"
