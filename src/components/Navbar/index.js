@@ -70,11 +70,6 @@ const Navbar = ({ onLoginClick }) => {
               </Link>
             </li>
             <li className="w-full h-full p-1">
-                <Link to="/detail">
-                    <div className="block py-1 pl-3 pr-4 text-white hover:underline">Detail</div>
-                </Link>
-            </li>
-            <li className="w-full h-full p-1">
               <Link to="/dashboard">
                 <div className="block py-1 pl-3 pr-4 text-white hover:underline">Dashboard</div>
               </Link>
