@@ -1,35 +1,21 @@
-import React, { useState } from "react";
 import Navbar from "../../components/Navbar";
-import LoginModal from "../../components/login/LoginModal";
-import Sidebar from "../../components/sidebarDashboard/Sidebar";
+import Sidebar from "../../components/Sidebar/index";
 import Payment from "../../pages/menuDashboard/membershipPayment";
 
 function Upgrade() {
-  const [isLoginModalOpen, setLoginModalOpen] = useState(false);
-
-  const openLoginModal = () => {
-    setLoginModalOpen(true);
-  };
-
-  const closeLoginModal = () => {
-    setLoginModalOpen(false);
-  };
-
   return (
     <div className="bg-[#F4F6FC]">
-      <LoginModal isOpen={isLoginModalOpen} onRequestClose={closeLoginModal} />
-      <Navbar onLoginClick={openLoginModal} />
+      <Navbar />
       <Sidebar />
 
       {/* konten */}
-      <div className="p-4 sm:ml-64">
-        <div className="bg-white mt-20 p-4 h-screen">
+      <div className="p-4 sm:ml-64 bg-slate-100 h-screen">
+        <div className="p-4 bg-white rounded-xl h-full flex flex-col">
           <div className="p-4 rounded-lg text-center max-w-lg mx-auto">
             <p className="text-xs text-red-600">PRICING</p>
             <h1 className="text-3xl">Level up</h1>
             <p className="border-b-2 border-black text-sm">
-              Whether you’re just starting out or you’re running a major operation, Fiverr Workspace
-              has a plan for you.
+              Tingkatkan pengalaman belajarmu dengan keuntungan paket lengkap dari membership.
             </p>
           </div>
           <div className="relative overflow-x-auto sm:rounded-lg">

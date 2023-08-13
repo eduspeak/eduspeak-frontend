@@ -1,9 +1,5 @@
 import Sidebar from "../../../src/components/Sidebar";
 import Navbar from "../../../src/components/Navbar";
-
-import iconEndrolled from "../../assets/gambar/enrolled.png";
-import iconActive from "../../assets/gambar/active.png";
-import iconComplated from "../../assets/gambar/complated.png";
 import dumyCourses from "../../assets/gambar/dumy_courses.png";
 
 function Review() {
@@ -28,9 +24,8 @@ function Review() {
                 </div>
                 <div className="flex flex-col">
                   <div className="font-semibold text-lg">
-                    Belajar hahayukk Lorem ipsum, dolor sit amet consectetur
-                    adipisicing elit Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit.
+                    Belajar hahayukk Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit.
                   </div>
                   <div className="flex flex-row justify-between">
                     <div className="flex flex-row items-center ">
@@ -105,9 +100,8 @@ function Review() {
                 </div>
                 <div className="flex flex-col">
                   <div className="font-semibold text-lg">
-                    Belajar hahayukk Lorem ipsum, dolor sit amet consectetur
-                    adipisicing elit Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit.
+                    Belajar hahayukk Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit.
                   </div>
                   <div className="flex flex-row justify-between">
                     <div className="flex flex-row items-center ">
@@ -182,9 +176,8 @@ function Review() {
                 </div>
                 <div className="flex flex-col">
                   <div className="font-semibold text-lg">
-                    Belajar hahayukk Lorem ipsum, dolor sit amet consectetur
-                    adipisicing elit Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit.
+                    Belajar hahayukk Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit.
                   </div>
                   <div className="flex flex-row justify-between">
                     <div className="flex flex-row items-center ">

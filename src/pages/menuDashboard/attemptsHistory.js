@@ -1,28 +1,15 @@
-import React, { useState } from "react";
 import Navbar from "../../components/Navbar";
-import LoginModal from "../../components/login/LoginModal";
-import Sidebar from "../../components/sidebarDashboard/Sidebar";
+import Sidebar from "../../components/Sidebar/index";
 
 function History() {
-  const [isLoginModalOpen, setLoginModalOpen] = useState(false);
-
-  const openLoginModal = () => {
-    setLoginModalOpen(true);
-  };
-
-  const closeLoginModal = () => {
-    setLoginModalOpen(false);
-  };
-
   return (
     <div className="bg-[#F4F6FC]">
-      <LoginModal isOpen={isLoginModalOpen} onRequestClose={closeLoginModal} />
-      <Navbar onLoginClick={openLoginModal} />
+      <Navbar />
       <Sidebar />
 
       {/* konten */}
-      <div className="p-4 sm:ml-64">
-        <div className="bg-white mt-20 p-4 h-screen">
+      <div className="p-4 sm:ml-64 bg-slate-100 h-screen">
+        <div className="p-4 bg-white rounded-xl h-full flex flex-col">
           <div className="p-4 border-2 border-gray-200 border rounded-lg dark:border-gray-700 ">
             <h2>My Quiz Attempts</h2>
             <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-4">

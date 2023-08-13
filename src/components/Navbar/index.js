@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
+import LoginModal from "../../components/login/LoginModal";
 
-const Navbar = ({ onLoginClick }) => {
+function Navbar() {
   return (
     <nav className="bg-[#222E50] sticky top-0 z-50 w-full">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -58,42 +59,30 @@ const Navbar = ({ onLoginClick }) => {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-[#007991] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-[#222E50] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li className="w-full h-full p-1">
               <Link to="/">
-                <div className="block py-1 pl-3 pr-4 text-white hover:underline">
-                  Home
-                </div>
+                <div className="block py-1 pl-3 pr-4 text-white hover:underline">Home</div>
               </Link>
             </li>
             <li className="w-full h-full p-1">
               <Link to="/course">
-                <div className="block py-1 pl-3 pr-4 text-white hover:underline">
-                  Course
-                </div>
+                <div className="block py-1 pl-3 pr-4 text-white hover:underline">Course</div>
               </Link>
             </li>
             <li className="w-full h-full p-1">
               <Link to="/dashboard/user">
-                <div className="block py-1 pl-3 pr-4 text-white hover:underline">
-                  Dashboard
-                </div>
+                <div className="block py-1 pl-3 pr-4 text-white hover:underline">Dashboard</div>
               </Link>
             </li>
-            <li className="w-full h-full p-1 border-[2px] border-white">
-              <button
-                className="block py-1 pl-3 pr-4 text-white"
-                aria-current="page"
-                onClick={onLoginClick}
-              >
-                Login
-              </button>
+            <li className="w-full h-full p-1">
+              <LoginModal />
             </li>
           </ul>
         </div>
       </div>
     </nav>
   );
-};
+}
 
 export default Navbar;

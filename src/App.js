@@ -24,9 +24,9 @@ function App() {
         <Route path="/dashboard/user" element={<DashboardUser />}></Route>
         <Route path="/dashboard/review" element={<Review />}></Route>
         {/* Ayyash */}
-        <Route path="/history" element={<History />} />
-        <Route path="/enrolled" element={<Enrolled />} />
-        <Route path="/upgrade" element={<Upgrade />} />
+        <Route path="/dashboard/history" element={<History />} />
+        <Route path="/dashboard/enrolled" element={<Enrolled />} />
+        <Route path="/dashboard/upgrade" element={<Upgrade />} />
       </Routes>
     </>
   );
