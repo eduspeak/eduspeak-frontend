@@ -16,7 +16,7 @@ const Course = () => {
     setHoveredIndex(null);
   };
 
-  const [activeLink, setActiveLink] = useState(null);
+  const [activeLink, setActiveLink] = useState(0);
 
   const handleLinkClick = (index) => {
     setActiveLink(index);
