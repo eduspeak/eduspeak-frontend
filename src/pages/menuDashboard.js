@@ -1,10 +1,11 @@
 import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
 
 function Dashboard() {
   return (
     <>
       <Navbar />
-      <p>Ini Dashboard</p>
+      <Sidebar />
     </>
   );
 }
