@@ -16,7 +16,6 @@ import noEnam from "../assets/gambar/6.png";
 import aboutUs from "../assets/gambar/aboutus.png";
 
 import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
