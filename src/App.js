@@ -5,7 +5,6 @@ import { Route, Routes } from "react-router-dom";
 // Fahmi
 import Home from "./pages/menuHome";
 import Course from "./pages/menuCourse";
-import Detail from "./pages/menuDetailCourse";
 import Dashboard from "./pages/menuDashboard";
 import DashboardUser from "./pages/menuDashboard/dashboardUser";
 import Review from "./pages/menuDashboard/Review";
@@ -23,7 +22,6 @@ function App() {
         {/* Fahmi */}
         <Route path="/" element={<Home />}></Route>
         <Route path="/course" element={<Course />}></Route>
-        <Route path="/detail" element={<Detail />}></Route>
         <Route path="/dashboard" element={<Dashboard />}></Route>
         <Route path="/dashboard/user" element={<DashboardUser />}></Route>
         <Route path="/dashboard/review" element={<Review />}></Route>
