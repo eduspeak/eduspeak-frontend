@@ -21,8 +21,8 @@ function Navbar() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              clip-rule="evenodd"
-              fill-rule="evenodd"
+              clipRule="evenodd"
+              fillRule="evenodd"
               d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"
             ></path>
           </svg>
@@ -62,17 +62,23 @@ function Navbar() {
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-[#222E50] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li className="w-full h-full p-1">
               <Link to="/">
-                <div className="block py-1 pl-3 pr-4 text-white hover:underline">Home</div>
+                <div className="block py-1 pl-3 pr-4 text-white hover:underline">
+                  Home
+                </div>
               </Link>
             </li>
             <li className="w-full h-full p-1">
               <Link to="/course">
-                <div className="block py-1 pl-3 pr-4 text-white hover:underline">Course</div>
+                <div className="block py-1 pl-3 pr-4 text-white hover:underline">
+                  Course
+                </div>
               </Link>
             </li>
             <li className="w-full h-full p-1">
               <Link to="/dashboard/user">
-                <div className="block py-1 pl-3 pr-4 text-white hover:underline">Dashboard</div>
+                <div className="block py-1 pl-3 pr-4 text-white hover:underline">
+                  Dashboard
+                </div>
               </Link>
             </li>
             <li className="w-full h-full p-1">

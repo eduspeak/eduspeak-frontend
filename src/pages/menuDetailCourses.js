@@ -60,40 +60,47 @@ function DetailCourse() {
               <div className="text-gray-500">(4.9 Reviews)</div>
             </div>
             <div className="">
-              <h1 className="font-semibold text-3xl">Memahami Alfabet dan Pengucapan</h1>
+              <h1 className="font-semibold text-3xl">
+                Memahami Alfabet dan Pengucapan
+              </h1>
               <p className="text-gray-500 text-xl">
-                Categories: <span className="font-semibold text-black">Beginner</span>
+                Categories:{" "}
+                <span className="font-semibold text-black">Beginner</span>
               </p>
             </div>
           </div>
           <div className="">
-            <img className="w-full rounded-lg" src={dumyCourses} alt="Modul utama" />
+            <img
+              className="w-full rounded-lg"
+              src={dumyCourses}
+              alt="Modul utama"
+            />
           </div>
           <div className="">
             <h2 className="font-semibold text-xl">About Course</h2>
             <p className="">
-              Looking started he up perhaps against. How remainder all additions get elsewhere
-              resources. One missed shy wishes supply design answer formed. Prevent on present
-              hastily passage an subject in be. Be happiness arranging so newspaper defective
-              affection ye.
+              Looking started he up perhaps against. How remainder all additions
+              get elsewhere resources. One missed shy wishes supply design
+              answer formed. Prevent on present hastily passage an subject in
+              be. Be happiness arranging so newspaper defective affection ye.
             </p>
           </div>
           <div className="">
             <h2 className="font-semibold text-xl">Course Content</h2>
-            <div class="relative overflow-x-auto shadow-md sm:rounded-lg ">
-              <table class="w-full text-sm text-left dark:text-gray-400 ">
-                <thead class="text-xs text-white uppercase bg-[#439A86] dark:bg-gray-700 dark:text-gray-400">
+            <div className="relative overflow-x-auto shadow-md sm:rounded-lg ">
+              <table className="w-full text-sm text-left dark:text-gray-400 ">
+                <thead className="text-xs text-white uppercase bg-[#439A86] dark:bg-gray-700 dark:text-gray-400">
                   <tr>
-                    <th scope="col" class="px-6 py-3 text-lg">
+                    <th scope="col" className="px-6 py-3 text-lg">
                       Product name
                     </th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                  <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                     <th
                       scope="row"
-                      class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                     >
                       Video
                     </th>
@@ -104,9 +111,9 @@ function DetailCourse() {
           </div>
         </div>
         <div className="p-4 space-y-4 max-w-sm w-full ml-auto mt-[120px] mr-10">
-          <div class="bg-white border-4 border-[#007991] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
-            <div class="bg-[#BCD8C1] w-full p-4 rounded-t-sm border-b-4 border-[#007991] space-y-8">
-              <h5 class="text-2xl font-bold tracking-tight text-white dark:text-white">
+          <div className="bg-white border-4 border-[#007991] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+            <div className="bg-[#BCD8C1] w-full p-4 rounded-t-sm border-b-4 border-[#007991] space-y-8">
+              <h5 className="text-2xl font-bold tracking-tight text-white dark:text-white">
                 Course Progress
               </h5>
               <div>
@@ -114,35 +121,37 @@ function DetailCourse() {
                   <li className="text-white">1/2</li>
                   <li className="text-white">50% Complate</li>
                 </ul>
-                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div class="bg-blue-600 h-2.5 rounded-full w-[50%]"></div>
+                <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                  <div className="bg-blue-600 h-2.5 rounded-full w-[50%]"></div>
                 </div>
               </div>
               <div>
                 <button
                   type="button"
-                  class="focus:outline-none w-full text-white bg-[#439A86] hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-semibold rounded-lg text-lg px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+                  className="focus:outline-none w-full text-white bg-[#439A86] hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-semibold rounded-lg text-lg px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
                 >
                   Learn Now
                 </button>
               </div>
             </div>
-            <div class="p-4">
-              <ul class="max-w-md space-y-1 text-black font-semibold list-disc list-inside dark:text-gray-400">
+            <div className="p-4">
+              <ul className="max-w-md space-y-1 text-black font-semibold list-disc list-inside dark:text-gray-400">
                 <li>Beginner</li>
                 <li>1 Total Enroll</li>
                 <li>23 June 2023 Last Update</li>
               </ul>
             </div>
           </div>
-          <div class="bg-white border-4 border-[#007991] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <div class="bg-[#BCD8C1] p-4 rounded-t-sm border-b-4 border-[#007991]">
-              <h5 class="text-2xl font-bold tracking-tight text-white dark:text-white">
+          <div className="bg-white border-4 border-[#007991] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="bg-[#BCD8C1] p-4 rounded-t-sm border-b-4 border-[#007991]">
+              <h5 className="text-2xl font-bold tracking-tight text-white dark:text-white">
                 A Course By
               </h5>
             </div>
-            <div class="p-4">
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Nurul Afidah</p>
+            <div className="p-4">
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Nurul Afidah
+              </p>
             </div>
           </div>
         </div>
