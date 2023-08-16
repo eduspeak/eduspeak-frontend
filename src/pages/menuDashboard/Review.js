@@ -1,8 +1,25 @@
 import Sidebar from "../../../src/components/Sidebar";
 import Navbar from "../../../src/components/Navbar";
 import dumyCourses from "../../assets/gambar/dumy_courses.png";
+import btnClose from "../../assets/icon/close.svg";
+
+import React, { useState } from "react";
+import Modal from "react-modal";
 
 function Review() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [nama, setNama] = useState("");
+
+  const toggleModal = () => {
+    setIsModalOpen(!isModalOpen);
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    setNama("");
+    setIsModalOpen(false);
+  };
+
   return (
     <div>
       <Navbar />
@@ -24,12 +41,16 @@ function Review() {
                 </div>
                 <div className="flex flex-col">
                   <div className="font-semibold text-lg">
-                    Belajar hahayukk Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem
-                    ipsum dolor sit amet consectetur adipisicing elit.
+                    Belajar hahayukk Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.
                   </div>
                   <div className="flex flex-row justify-between">
                     <div className="flex flex-row items-center ">
-                      <div className="flex items-center space-x-1 mb-2 cursor-pointer">
+                      <div
+                        className="flex items-center space-x-1 mb-2 cursor-pointer"
+                        onClick={toggleModal}
+                      >
                         <svg
                           className="w-4 h-4 text-yellow-300"
                           aria-hidden="true"
@@ -100,12 +121,16 @@ function Review() {
                 </div>
                 <div className="flex flex-col">
                   <div className="font-semibold text-lg">
-                    Belajar hahayukk Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem
-                    ipsum dolor sit amet consectetur adipisicing elit.
+                    Belajar hahayukk Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.
                   </div>
                   <div className="flex flex-row justify-between">
                     <div className="flex flex-row items-center ">
-                      <div className="flex items-center space-x-1 mb-2">
+                      <div
+                        className="flex items-center space-x-1 mb-2 cursor-pointer"
+                        onClick={toggleModal}
+                      >
                         <svg
                           className="w-4 h-4 text-yellow-300"
                           aria-hidden="true"
@@ -176,12 +201,16 @@ function Review() {
                 </div>
                 <div className="flex flex-col">
                   <div className="font-semibold text-lg">
-                    Belajar hahayukk Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem
-                    ipsum dolor sit amet consectetur adipisicing elit.
+                    Belajar hahayukk Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.
                   </div>
                   <div className="flex flex-row justify-between">
                     <div className="flex flex-row items-center ">
-                      <div className="flex items-center space-x-1 mb-2">
+                      <div
+                        className="flex items-center space-x-1 mb-2 cursor-pointer"
+                        onClick={toggleModal}
+                      >
                         <svg
                           className="w-4 h-4 text-yellow-300"
                           aria-hidden="true"
@@ -242,10 +271,63 @@ function Review() {
                   </div>
                 </div>
               </div>
+              {/*  */}
             </div>
           </div>
         </div>
       </div>
+
+      <Modal
+        isOpen={isModalOpen}
+        onRequestClose={toggleModal}
+        className="mx-auto mt-20 px-4 py-6 bg-white shadow-md rounded-lg max-w-[40vw] border"
+        style={{ overlay: { zIndex: 101 } }}
+      >
+        <div
+          className="w-full h-10 flex items-center justify-end cursor-pointer"
+          onClick={toggleModal}
+        >
+          <img
+            className="max-h-full max-w-full object-contain"
+            src={btnClose}
+            alt="Model Utama"
+          />
+        </div>
+
+        <div className="w-full px-10 pb-6 mt-2">
+          <form onSubmit={handleFormSubmit}>
+            <h3 className="mb-4 text-center text-lg font-medium leading-none text-gray-900 dark:text-white">
+              Review Course
+            </h3>
+            <div className="w-full ">
+              <div className="py-3">
+                <label
+                  htmlFor="username"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                >
+                  Username
+                </label>
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="username"
+                  required=""
+                  value={nama}
+                  onChange={(e) => setNama(e.target.value)}
+                />
+              </div>
+              <button
+                type="submit"
+                className="text-white bg-[#007991] mt-2 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Save
+              </button>
+            </div>
+          </form>
+        </div>
+      </Modal>
     </div>
   );
 }

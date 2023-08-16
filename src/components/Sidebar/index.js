@@ -74,7 +74,12 @@ function Sidebar() {
                   </g>
                   <defs>
                     <clipPath id="clip0_85_6786">
-                      <rect width="22" height="22" fill="white" transform="translate(0 0.278198)" />
+                      <rect
+                        width="22"
+                        height="22"
+                        fill="white"
+                        transform="translate(0 0.278198)"
+                      />
                     </clipPath>
                   </defs>
                 </svg>
@@ -145,7 +150,12 @@ function Sidebar() {
                   </g>
                   <defs>
                     <clipPath id="clip0_85_6794">
-                      <rect width="22" height="22" fill="white" transform="translate(0 0.278198)" />
+                      <rect
+                        width="22"
+                        height="22"
+                        fill="white"
+                        transform="translate(0 0.278198)"
+                      />
                     </clipPath>
                   </defs>
                 </svg>
@@ -175,7 +185,12 @@ function Sidebar() {
                   </g>
                   <defs>
                     <clipPath id="clip0_85_6801">
-                      <rect width="22" height="22" fill="white" transform="translate(0 0.278198)" />
+                      <rect
+                        width="22"
+                        height="22"
+                        fill="white"
+                        transform="translate(0 0.278198)"
+                      />
                     </clipPath>
                   </defs>
                 </svg>
