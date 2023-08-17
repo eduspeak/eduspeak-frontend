@@ -1,7 +1,7 @@
 // import React, { useState } from "react";
 
-import Sidebar from "../../../src/components/Sidebar";
-import Navbar from "../../../src/components/Navbar";
+import Sidebar from "../../components/Sidebar";
+import Navbar from "../../components/Navbar";
 
 import React, { useState } from "react";
 
@@ -58,10 +58,9 @@ function Quiz() {
                 className="cursor-pointer"
               ></div>
               <p className="mb-3 font-normal text-gray-500 dark:text-gray-400 ">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Reprehenderit, voluptas molestiae sit cupiditate est illo
-                inventore quae iste impedit cumque error. Similique aliquid ab
-                est rerum, ratione libero quibusdam! Rerum?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, voluptas
+                molestiae sit cupiditate est illo inventore quae iste impedit cumque error.
+                Similique aliquid ab est rerum, ratione libero quibusdam! Rerum?
               </p>
 
               <div className="border-b-2 my-5"></div>
@@ -138,9 +137,7 @@ function Quiz() {
                 >
                   <span>1. Course Content</span>
                   <svg
-                    className={`w-3 h-3 ${
-                      activeSection === 1 ? "rotate-180" : ""
-                    } shrink-0`}
+                    className={`w-3 h-3 ${activeSection === 1 ? "rotate-180" : ""} shrink-0`}
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"

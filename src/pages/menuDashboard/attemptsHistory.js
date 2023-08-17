@@ -16,28 +16,28 @@ function History() {
               <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                 <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                   <tr>
-                    <th scope="col" className="px-6 py-3">
+                    <th scope="col" className=" px-6 py-3">
                       Quiz Info
                     </th>
-                    <th scope="col" className="px-6 py-3">
+                    <th scope="col" className=" px-6 py-3">
                       Question
                     </th>
-                    <th scope="col" className="px-6 py-3">
+                    <th scope="col" className=" px-6 py-3">
                       Total Marks
                     </th>
-                    <th scope="col" className="px-6 py-3">
+                    <th scope="col" className=" px-6 py-3">
                       Total Answer
                     </th>
-                    <th scope="col" className="px-6 py-3">
+                    <th scope="col" className=" px-6 py-3">
                       Incorrect Answer
                     </th>
-                    <th scope="col" className="px-6 py-3">
+                    <th scope="col" className=" px-6 py-3">
                       Earned Marks
                     </th>
-                    <th scope="col" className="px-6 py-3">
+                    <th scope="col" className=" px-6 py-3">
                       Result
                     </th>
-                    <th scope="col" className="px-6 py-3">
+                    <th scope="col" className=" px-6 py-3">
                       Total Teman
                     </th>
                   </tr>
@@ -48,7 +48,7 @@ function History() {
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                     >
-                      Apple MacBook Pro 17"
+                      Learning The Alphabet and Pronunciation
                     </th>
                     <td className="px-6 py-4">Silver</td>
                     <td className="px-6 py-4">Laptop</td>
