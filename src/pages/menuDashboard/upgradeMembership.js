@@ -15,7 +15,8 @@ function Upgrade() {
             <p className="text-xs text-red-600">PRICING</p>
             <h1 className="text-3xl">Level up</h1>
             <p className="border-b-2 border-black text-sm">
-              Tingkatkan pengalaman belajarmu dengan keuntungan paket lengkap dari membership.
+              Tingkatkan pengalaman belajarmu dengan keuntungan paket lengkap
+              dari membership.
             </p>
           </div>
           <div className="relative overflow-x-auto sm:rounded-lg">
@@ -46,7 +47,7 @@ function Upgrade() {
                         xmlns="http://www.w3.org/2000/svg"
                         className="mx-auto my-auto"
                       >
-                        <g clip-path="url(#clip0_99_7413)">
+                        <g clipPath="url(#clip0_99_7413)">
                           <path
                             d="M15.8127 0.893217L6.57925 9.85816L3.18653 6.56411C3.02204 6.4044 2.75534 6.4044 2.59081 6.56411L1.59798 7.52807C1.43349 7.68778 1.43349 7.94673 1.59798 8.10647L6.28137 12.6537C6.44586 12.8134 6.71257 12.8134 6.87709 12.6537L17.4012 2.43558C17.5657 2.27587 17.5657 2.01692 17.4012 1.85718L16.4084 0.893217C16.2439 0.733511 15.9772 0.733511 15.8127 0.893217Z"
                             fill="#E4E5E7"
@@ -73,7 +74,7 @@ function Upgrade() {
                         xmlns="http://www.w3.org/2000/svg"
                         className="mx-auto my-auto"
                       >
-                        <g clip-path="url(#clip0_99_7398)">
+                        <g clipPath="url(#clip0_99_7398)">
                           <path
                             d="M15.8127 0.893217L6.57925 9.85816L3.18653 6.56411C3.02204 6.4044 2.75534 6.4044 2.59081 6.56411L1.59798 7.52807C1.43349 7.68778 1.43349 7.94673 1.59798 8.10647L6.28137 12.6537C6.44586 12.8134 6.71257 12.8134 6.87709 12.6537L17.4012 2.43558C17.5657 2.27587 17.5657 2.01692 17.4012 1.85718L16.4084 0.893217C16.2439 0.733511 15.9772 0.733511 15.8127 0.893217Z"
                             fill="#1DBF73"
@@ -105,7 +106,7 @@ function Upgrade() {
                         xmlns="http://www.w3.org/2000/svg"
                         className="mx-auto my-auto"
                       >
-                        <g clip-path="url(#clip0_99_7413)">
+                        <g clipPath="url(#clip0_99_7413)">
                           <path
                             d="M15.8127 0.893217L6.57925 9.85816L3.18653 6.56411C3.02204 6.4044 2.75534 6.4044 2.59081 6.56411L1.59798 7.52807C1.43349 7.68778 1.43349 7.94673 1.59798 8.10647L6.28137 12.6537C6.44586 12.8134 6.71257 12.8134 6.87709 12.6537L17.4012 2.43558C17.5657 2.27587 17.5657 2.01692 17.4012 1.85718L16.4084 0.893217C16.2439 0.733511 15.9772 0.733511 15.8127 0.893217Z"
                             fill="#E4E5E7"
@@ -132,7 +133,7 @@ function Upgrade() {
                         xmlns="http://www.w3.org/2000/svg"
                         className="mx-auto my-auto"
                       >
-                        <g clip-path="url(#clip0_99_7398)">
+                        <g clipPath="url(#clip0_99_7398)">
                           <path
                             d="M15.8127 0.893217L6.57925 9.85816L3.18653 6.56411C3.02204 6.4044 2.75534 6.4044 2.59081 6.56411L1.59798 7.52807C1.43349 7.68778 1.43349 7.94673 1.59798 8.10647L6.28137 12.6537C6.44586 12.8134 6.71257 12.8134 6.87709 12.6537L17.4012 2.43558C17.5657 2.27587 17.5657 2.01692 17.4012 1.85718L16.4084 0.893217C16.2439 0.733511 15.9772 0.733511 15.8127 0.893217Z"
                             fill="#1DBF73"
