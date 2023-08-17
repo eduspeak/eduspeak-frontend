@@ -8,6 +8,7 @@ import Course from "./pages/menuCourse";
 import Dashboard from "./pages/menuDashboard";
 import DashboardUser from "./pages/menuDashboard/dashboardUser";
 import Review from "./pages/menuDashboard/Review";
+import Quiz from "./pages/menuDashboard/Quiz";
 // Ayyash
 import History from "./pages/menuDashboard/attemptsHistory";
 import Enrolled from "./pages/menuDashboard/enrolledCourses ";
@@ -25,6 +26,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />}></Route>
         <Route path="/dashboard/user" element={<DashboardUser />}></Route>
         <Route path="/dashboard/review" element={<Review />}></Route>
+        <Route path="/dashboard/quiz" element={<Quiz />}></Route>
         {/* Ayyas */}
         <Route path="/dashboard/history" element={<History />} />
         <Route path="/dashboard/enrolled" element={<Enrolled />} />
