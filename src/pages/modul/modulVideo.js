@@ -5,7 +5,7 @@ import SidebarModul from "../../components/Sidebar/sidebarModul";
 import btnCancel from "../../assets/gambar/cancel.png";
 import btnBack from "../../assets/gambar/back.png";
 
-function Modul() {
+function Modulv() {
   return (
     <div>
       <div>
@@ -69,4 +69,4 @@ function Modul() {
   );
 }
 
-export default Modul;
+export default Modulv;
