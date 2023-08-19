@@ -1,10 +1,3 @@
-// import modelUtama from "../assets/gambar/model-utama.png";
-
-// import iconEndrolled from "../../assets/gambar/enrolled.png";
-// import iconActive from "../../assets/gambar/active.png";
-// import iconComplated from "../../assets/gambar/complated.png";
-// import dumyCourses from "../../assets/gambar/dumy_courses.png";
-
 import { Link } from "react-router-dom";
 
 function Sidebar() {
@@ -74,12 +67,7 @@ function Sidebar() {
                   </g>
                   <defs>
                     <clipPath id="clip0_85_6786">
-                      <rect
-                        width="22"
-                        height="22"
-                        fill="white"
-                        transform="translate(0 0.278198)"
-                      />
+                      <rect width="22" height="22" fill="white" transform="translate(0 0.278198)" />
                     </clipPath>
                   </defs>
                 </svg>
@@ -150,12 +138,7 @@ function Sidebar() {
                   </g>
                   <defs>
                     <clipPath id="clip0_85_6794">
-                      <rect
-                        width="22"
-                        height="22"
-                        fill="white"
-                        transform="translate(0 0.278198)"
-                      />
+                      <rect width="22" height="22" fill="white" transform="translate(0 0.278198)" />
                     </clipPath>
                   </defs>
                 </svg>
@@ -185,12 +168,7 @@ function Sidebar() {
                   </g>
                   <defs>
                     <clipPath id="clip0_85_6801">
-                      <rect
-                        width="22"
-                        height="22"
-                        fill="white"
-                        transform="translate(0 0.278198)"
-                      />
+                      <rect width="22" height="22" fill="white" transform="translate(0 0.278198)" />
                     </clipPath>
                   </defs>
                 </svg>

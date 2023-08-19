@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import Navbar from "../components/Navbar";
 import dumyCourses from "../assets/gambar/dumy_courses.png";
 
@@ -60,29 +62,22 @@ function DetailCourse() {
               <div className="text-gray-500">(4.9 Reviews)</div>
             </div>
             <div className="">
-              <h1 className="font-semibold text-3xl">
-                Memahami Alfabet dan Pengucapan
-              </h1>
+              <h1 className="font-semibold text-3xl">Memahami Alfabet dan Pengucapan</h1>
               <p className="text-gray-500 text-xl">
-                Categories:{" "}
-                <span className="font-semibold text-black">Beginner</span>
+                Categories: <span className="font-semibold text-black">Beginner</span>
               </p>
             </div>
           </div>
           <div className="">
-            <img
-              className="w-full rounded-lg"
-              src={dumyCourses}
-              alt="Modul utama"
-            />
+            <img className="w-full rounded-lg" src={dumyCourses} alt="Modul utama" />
           </div>
           <div className="">
             <h2 className="font-semibold text-xl">About Course</h2>
             <p className="">
-              Looking started he up perhaps against. How remainder all additions
-              get elsewhere resources. One missed shy wishes supply design
-              answer formed. Prevent on present hastily passage an subject in
-              be. Be happiness arranging so newspaper defective affection ye.
+              Looking started he up perhaps against. How remainder all additions get elsewhere
+              resources. One missed shy wishes supply design answer formed. Prevent on present
+              hastily passage an subject in be. Be happiness arranging so newspaper defective
+              affection ye.
             </p>
           </div>
           <div className="">
@@ -126,12 +121,14 @@ function DetailCourse() {
                 </div>
               </div>
               <div>
-                <button
-                  type="button"
-                  className="focus:outline-none w-full text-white bg-[#439A86] hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-semibold rounded-lg text-lg px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-                >
-                  Learn Now
-                </button>
+                <Link to="/modul/video">
+                  <button
+                    type="button"
+                    className="focus:outline-none w-full text-white bg-[#439A86] hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-semibold rounded-lg text-lg px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+                  >
+                    Learn Now
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="p-4">
@@ -149,9 +146,7 @@ function DetailCourse() {
               </h5>
             </div>
             <div className="p-4">
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Nurul Afidah
-              </p>
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Nurul Afidah</p>
             </div>
           </div>
         </div>
