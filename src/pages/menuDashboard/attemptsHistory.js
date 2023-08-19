@@ -10,7 +10,7 @@ function History() {
       {/* konten */}
       <div className="p-4 sm:ml-64 bg-slate-100 h-screen">
         <div className="p-4 bg-white rounded-xl h-full flex flex-col">
-          <div className="p-4 border-2 border-gray-200 border rounded-lg dark:border-gray-700 ">
+          <div className="p-4 border-2 border-gray-200 rounded-lg dark:border-gray-700 ">
             <h2>My Quiz Attempts</h2>
             <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-4">
               <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
@@ -78,7 +78,9 @@ function History() {
           </div>
           <div className="grid grid-cols-2 mt-4">
             <div className="flex text-left rounded">
-              <p className="text-gray-400 dark:text-gray-500">Showing 1 to 10</p>
+              <p className="text-gray-400 dark:text-gray-500">
+                Showing 1 to 10
+              </p>
             </div>
             <div className="flex justify-end rounded">
               <nav aria-label="Page navigation example">

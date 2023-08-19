@@ -4,27 +4,14 @@ import Sidebar from "../../components/Sidebar";
 import Navbar from "../../components/Navbar";
 
 import SidebarModul from "../../components/Sidebar/sidebarModul";
-
-import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 // Import Gambar
-
 import btnCancel from "../../assets/gambar/cancel.png";
-import btnNext from "../../assets/gambar/next.png";
 import btnPrev from "../../assets/gambar/previous.png";
 import btnBack from "../../assets/gambar/back.png";
 
 function Quiz() {
-  const [activeSection, setActiveSection] = useState(1);
-
-  const toggleSection = (section) => {
-    if (activeSection === section) {
-      setActiveSection(null);
-    } else {
-      setActiveSection(section);
-    }
-  };
-
   return (
     <div>
       <Navbar />
@@ -76,12 +63,11 @@ function Quiz() {
 
               <div className="flex flex-row mt-5">
                 <div>
-                  <button
-                    type="button"
-                    className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                  >
-                    Start Quiz
-                  </button>
+                  <Link to="/modul/quiz">
+                    <div className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                      Start Quiz
+                    </div>
+                  </Link>
                 </div>
                 <div>
                   <button
@@ -109,12 +95,12 @@ function Quiz() {
                 </div>
               </div>
 
-              <div className="ml-2">
+              {/* <div className="ml-2">
                 <div className="text-white bg-slate-500 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-500/30 mr-2 mb-2 w-32">
                   <img className="w-5 h-5 mr-3" src={btnNext} alt="" />
                   Next
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
