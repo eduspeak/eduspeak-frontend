@@ -3,6 +3,8 @@
 import Sidebar from "../../components/Sidebar";
 import Navbar from "../../components/Navbar";
 
+import SidebarModul from "../../components/Sidebar/sidebarModul";
+
 import React, { useState } from "react";
 
 // Import Gambar
@@ -58,9 +60,10 @@ function Quiz() {
                 className="cursor-pointer"
               ></div>
               <p className="mb-3 font-normal text-gray-500 dark:text-gray-400 ">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, voluptas
-                molestiae sit cupiditate est illo inventore quae iste impedit cumque error.
-                Similique aliquid ab est rerum, ratione libero quibusdam! Rerum?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Reprehenderit, voluptas molestiae sit cupiditate est illo
+                inventore quae iste impedit cumque error. Similique aliquid ab
+                est rerum, ratione libero quibusdam! Rerum?
               </p>
 
               <div className="border-b-2 my-5"></div>
@@ -99,127 +102,28 @@ function Quiz() {
 
           <div className="w-full h-14 bg-[#222E50] grid grid-cols-1 place-items-center content-center">
             <div className="flex flex-row mt-2.5">
-              <div className="mr-2">
-                <button
-                  type="button"
-                  className="text-white bg-slate-500 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-500/30 mr-2 mb-2"
-                >
+              <div className="ml-2">
+                <div className="text-white bg-slate-500 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-500/30 mr-2 mb-2 w-32">
                   <img className="w-5 h-5 mr-3" src={btnPrev} alt="" />
                   Previous
-                </button>
+                </div>
               </div>
+
               <div className="ml-2">
-                <button
-                  type="button"
-                  className="text-white bg-slate-500 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-500/30 mr-2 mb-2"
-                >
+                <div className="text-white bg-slate-500 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-500/30 mr-2 mb-2 w-32">
                   <img className="w-5 h-5 mr-3" src={btnNext} alt="" />
-                  Previous
-                </button>
+                  Next
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="h-20 border border-red-500 grid grid-cols-1 content-center font-semibold pl-8">
+          <div className="h-20 grid grid-cols-1 content-center font-semibold pl-8">
             Copyright &copy; 2023 EduSpeak
           </div>
         </div>
 
-        <div className="h-full">
-          <div id="accordion-collapse" data-accordion="collapse">
-            <div>
-              <h2 id="accordion-collapse-heading-1">
-                <button
-                  type="button"
-                  className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl"
-                  aria-expanded={activeSection === 1}
-                  onClick={() => toggleSection(1)}
-                >
-                  <span>1. Course Content</span>
-                  <svg
-                    className={`w-3 h-3 ${activeSection === 1 ? "rotate-180" : ""} shrink-0`}
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 10 6"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 5 5 1 1 5"
-                    />
-                  </svg>
-                </button>
-              </h2>
-              <div
-                id="accordion-collapse-body-1"
-                className={activeSection === 1 ? "" : "hidden"}
-                aria-labelledby="accordion-collapse-heading-1"
-              >
-                <div className="grid grid-row-3 gap-3 border border-gray-200 ">
-                  <div className="bg-gray-100 w-full cursor-pointer shadow h-10 mt-3 pl-10 grid content-center">
-                    Video
-                  </div>
-                  <div className="bg-gray-100 w-full cursor-pointer shadow h-10 pl-10 grid content-center">
-                    Module
-                  </div>
-                  <div className="bg-gray-100 w-full cursor-pointer shadow h-10 pl-10 grid content-center">
-                    Quiz
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* Btn 2 */}
-            {/* <div>
-              <h2 id="accordion-collapse-heading-2">
-                <button
-                  type="button"
-                  className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 rounded-t-xl"
-                  aria-expanded={activeSection === 2}
-                  onClick={() => toggleSection(2)}
-                >
-                  <span>2. Word</span>
-                  <svg
-                    className={`w-3 h-3 ${
-                      activeSection === 2 ? "rotate-180" : ""
-                    } shrink-0`}
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 10 6"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 5 5 1 1 5"
-                    />
-                  </svg>
-                </button>
-              </h2>
-              <div
-                id="accordion-collapse-body-2"
-                className={activeSection === 2 ? "" : "hidden"}
-                aria-labelledby="accordion-collapse-heading-2"
-              >
-                <div className="grid grid-row-3 gap-3 border border-gray-200 ">
-                  <div className="bg-gray-100 w-full cursor-pointer shadow h-10 mt-3 pl-10 grid content-center">
-                    Video
-                  </div>
-                  <div className="bg-gray-100 w-full cursor-pointer shadow h-10 pl-10 grid content-center">
-                    Module
-                  </div>
-                  <div className="bg-gray-100 w-full cursor-pointer shadow h-10 pl-10 grid content-center">
-                    Quiz
-                  </div>
-                </div>
-              </div>
-            </div> */}
-          </div>
-        </div>
+        <SidebarModul />
       </div>
     </div>
   );
