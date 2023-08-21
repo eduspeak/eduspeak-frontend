@@ -6,9 +6,40 @@ import SidebarModul from "../../components/Sidebar/sidebarModul";
 
 import btnCancel from "../../assets/gambar/cancel.png";
 import btnBack from "../../assets/gambar/back.png";
-import pdfFile from "../../assets/pdf/kosakata.pdf";
+
+import page1 from "../../assets/modul/page1.png";
+import page2 from "../../assets/modul/page2.png";
+import page3 from "../../assets/modul/page3.png";
+import page4 from "../../assets/modul/page4.png";
+import page5 from "../../assets/modul/page5.png";
+import page6 from "../../assets/modul/page6.png";
+import page7 from "../../assets/modul/page7.png";
+import page8 from "../../assets/modul/page8.png";
+import page9 from "../../assets/modul/page9.png";
+import page10 from "../../assets/modul/page10.png";
+import page11 from "../../assets/modul/page11.png";
+import page12 from "../../assets/modul/page12.png";
 
 const Modul = () => {
+  const pageImages = [
+    page1,
+    page2,
+    page3,
+    page4,
+    page5,
+    page6,
+    page7,
+    page8,
+    page9,
+    page10,
+    page11,
+    page12,
+  ];
+
+  const pages = pageImages.map((page, index) => (
+    <img key={index} className="mb-4 max-w-full h-auto" src={page} alt={`Page ${index + 1}`} />
+  ));
+
   return (
     <div>
       <div>
@@ -34,9 +65,7 @@ const Modul = () => {
             </div>
 
             {/* content */}
-            <div className="flex justify-center pdf-container">
-              <iframe title="PDF Viewer" src={pdfFile} className="w-full h-full" />
-            </div>
+            <div className="flex-grow overflow-y-auto px-6 max-h-screen">{pages}</div>
 
             <div className="flex flex-col text-black font-semibold mx-16 py-4">
               <div className="">About Lesson</div>
