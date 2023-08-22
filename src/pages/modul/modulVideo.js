@@ -8,7 +8,7 @@ import btnBack from "../../assets/gambar/back.png";
 import btnNext from "../../assets/gambar/next.png";
 import btnPrev from "../../assets/gambar/previous.png";
 
-function Modul() {
+function Modulv() {
   return (
     <div>
       <div>
