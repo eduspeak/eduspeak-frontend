@@ -5,9 +5,6 @@ import SidebarModul from "../../components/Sidebar/sidebarModul";
 import btnCancel from "../../assets/gambar/cancel.png";
 import btnBack from "../../assets/gambar/back.png";
 
-import btnNext from "../../assets/gambar/next.png";
-import btnPrev from "../../assets/gambar/previous.png";
-
 function Modulv() {
   return (
     <div>
@@ -78,4 +75,4 @@ function Modulv() {
   );
 }
 
-export default Modul;
+export default Modulv;
