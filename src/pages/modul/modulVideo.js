@@ -5,6 +5,9 @@ import SidebarModul from "../../components/Sidebar/sidebarModul";
 import btnCancel from "../../assets/gambar/cancel.png";
 import btnBack from "../../assets/gambar/back.png";
 
+import btnPrev from "../../assets/gambar/previous.png";
+import btnNext from "../../assets/gambar/next.png";
+
 function Modulv() {
   return (
     <div>
