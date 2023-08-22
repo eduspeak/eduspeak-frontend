@@ -53,7 +53,7 @@ function SidebarModul() {
                 <Link to="/modul/video">Video</Link>
               </div>
               <div className="bg-gray-100 w-full cursor-pointer shadow h-10 pl-10 grid content-center">
-                Module
+                <Link to="/modul/modul">Module</Link>
               </div>
               <div className="bg-gray-100 w-full cursor-pointer shadow h-10 pl-10 grid content-center">
                 <Link to="/modul/intro-quiz">Quiz</Link>

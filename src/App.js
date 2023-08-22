@@ -16,7 +16,8 @@ import Enrolled from "./pages/menuDashboard/enrolledCourses ";
 import Upgrade from "./pages/menuDashboard/upgradeMembership";
 import MenuCourse from "./pages/menuCourse";
 import Detail from "./pages/menuDetailCourses";
-import Modul from "./pages/modul/modulVideo";
+import Modulvideo from "./pages/modul/modulVideo";
+import Modul from "./pages/modul/modul";
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
         {/* Ayyas */}
         <Route path="/dashboard/history" element={<History />} />
         <Route path="/dashboard/enrolled" element={<Enrolled />} />
-        <Route path="/modul/video" element={<Modul />} />
+        <Route path="/modul/video" element={<Modulvideo />} />
+        <Route path="/modul/modul" element={<Modul />} />
         {/* nurul */}
         <Route path="/dashboard/upgrade" element={<Upgrade />} />
         <Route path="/menuCourse" element={<MenuCourse />} />
