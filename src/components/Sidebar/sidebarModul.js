@@ -25,7 +25,9 @@ function SidebarModul() {
             >
               <span>1. Course Content</span>
               <svg
-                className={`w-3 h-3 ${activeSection === 1 ? "rotate-180" : ""} shrink-0`}
+                className={`w-3 h-3 ${
+                  activeSection === 1 ? "rotate-180" : ""
+                } shrink-0`}
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -54,7 +56,7 @@ function SidebarModul() {
                 <Link to="/modul/modul">Module</Link>
               </div>
               <div className="bg-gray-100 w-full cursor-pointer shadow h-10 pl-10 grid content-center">
-                <Link to="/modul/quiz">Quiz</Link>
+                <Link to="/modul/intro-quiz">Quiz</Link>
               </div>
             </div>
           </div>

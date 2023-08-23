@@ -8,7 +8,8 @@ import Course from "./pages/menuCourse";
 import Dashboard from "./pages/menuDashboard";
 import DashboardUser from "./pages/menuDashboard/dashboardUser";
 import Review from "./pages/menuDashboard/Review";
-import Quiz from "./pages/modul/Quiz";
+import IntroQuiz from "./pages/modul/introQuiz";
+import StartQuiz from "./pages/modul/startQuiz";
 // Ayyash
 import History from "./pages/menuDashboard/attemptsHistory";
 import Enrolled from "./pages/menuDashboard/enrolledCourses ";
@@ -28,7 +29,8 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />}></Route>
         <Route path="/dashboard/user" element={<DashboardUser />}></Route>
         <Route path="/dashboard/review" element={<Review />}></Route>
-        <Route path="/modul/quiz" element={<Quiz />}></Route>
+        <Route path="/modul/intro-quiz" element={<IntroQuiz />}></Route>
+        <Route path="/modul/quiz" element={<StartQuiz />}></Route>
         {/* Ayyas */}
         <Route path="/dashboard/history" element={<History />} />
         <Route path="/dashboard/enrolled" element={<Enrolled />} />

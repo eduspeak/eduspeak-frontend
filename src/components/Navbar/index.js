@@ -1,10 +1,41 @@
 import { Link } from "react-router-dom";
 import LoginModal from "../../components/login/LoginModal";
 
+import { useState } from "react";
+
+import User from "../../assets/gambar/user.jpg";
+
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  // Untuk Tombol Hide Show
+  const ArrowUp = (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      data-name="Layer 1"
+      className="h-5 w-5 text-white"
+      viewBox="0 0 32 32"
+      id="up-arrow"
+    >
+      <path d="M26 22a2 2 0 0 1-1.41-.59L16 12.83l-8.59 8.58a2 2 0 0 1-2.82-2.82l10-10a2 2 0 0 1 2.82 0l10 10A2 2 0 0 1 26 22Z"></path>
+    </svg>
+  );
+
+  const ArrowDown = (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      data-name="Layer 1"
+      className="h-5 w-5 text-white"
+      viewBox="0 0 32 32"
+      id="down-arrow"
+    >
+      <path d="M16 22a2 2 0 0 1-1.41-.59l-10-10a2 2 0 0 1 2.82-2.82L16 17.17l8.59-8.58a2 2 0 0 1 2.82 2.82l-10 10A2 2 0 0 1 16 22Z"></path>
+    </svg>
+  );
+
   return (
     <nav className="bg-[#007991] sticky top-0 z-50 w-full">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="w-full flex flex-wrap items-center justify-between py-4 pl-14 pr-6">
         <button
           data-drawer-target="logo-sidebar"
           data-drawer-toggle="logo-sidebar"
@@ -82,7 +113,38 @@ function Navbar() {
               </Link>
             </li>
             <li className="w-full h-full p-1">
+              {/* Login User */}
               <LoginModal />
+              {/* Tanpa Login */}
+              {/* <div
+                className="flex items-center space-x-4 cursor-pointer"
+                onClick={() => setIsOpen(!isOpen)}
+              >
+                <img className="w-10 h-10 rounded-full" src={User} alt="" />
+                <div className="w-[20vh] h-8 grid content-center text-white">
+                  Much Fahmi
+                </div>
+                {isOpen ? ArrowUp : ArrowDown}
+              </div>
+              {isOpen && (
+                <div className="absolute z-10 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                  <div
+                    className="py-1"
+                    role="menu"
+                    aria-orientation="vertical"
+                    aria-labelledby="user-menu"
+                  >
+                    <button
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left"
+                      role="menuitem"
+                      onClick={() => {}}
+                    >
+                      Quit
+                    </button>
+                  </div>
+                </div>
+              )} */}
+              {/*  */}
             </li>
           </ul>
         </div>

@@ -5,6 +5,9 @@ import SidebarModul from "../../components/Sidebar/sidebarModul";
 import btnCancel from "../../assets/gambar/cancel.png";
 import btnBack from "../../assets/gambar/back.png";
 
+import btnPrev from "../../assets/gambar/previous.png";
+import btnNext from "../../assets/gambar/next.png";
+
 function Modulv() {
   return (
     <div>
@@ -46,15 +49,21 @@ function Modulv() {
               <div className="text-xl">Introduction to Alphabet</div>
             </div>
 
-            <div className="w-full h-14 bg-[#BCD8C1] grid grid-cols-1 place-items-center content-center">
-              <div class="flex">
-                <button class="flex items-center justify-center px-4 h-10 text-base font-medium text-[#222E50] bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
-                  Previous
-                </button>
+            <div className="w-full h-14 bg-[#222E50] grid grid-cols-1 place-items-center content-center">
+              <div className="flex flex-row mt-2.5">
+                <div className="ml-2">
+                  <div className="text-white bg-slate-500 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-500/30 mr-2 mb-2 w-32">
+                    <img className="w-5 h-5 mr-3" src={btnPrev} alt="" />
+                    Previous
+                  </div>
+                </div>
 
-                <button class="flex items-center justify-center px-4 h-10 ml-3 text-base font-medium text-white bg-[#222E50] border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
-                  Next
-                </button>
+                <div className="ml-2">
+                  <div className="text-white bg-slate-500 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-500/30 mr-2 mb-2 w-32">
+                    <img className="w-5 h-5 mr-3" src={btnNext} alt="" />
+                    Next
+                  </div>
+                </div>
               </div>
             </div>
 
