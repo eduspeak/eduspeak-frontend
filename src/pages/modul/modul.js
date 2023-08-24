@@ -37,7 +37,12 @@ const Modul = () => {
   ];
 
   const pages = pageImages.map((page, index) => (
-    <img key={index} className="mb-4 max-w-full h-auto" src={page} alt={`Page ${index + 1}`} />
+    <img
+      key={index}
+      className="mb-4 max-w-full h-auto"
+      src={page}
+      alt={`Page ${index + 1}`}
+    />
   ));
 
   return (
@@ -56,7 +61,7 @@ const Modul = () => {
               </div>
               <div className="flex flex-row justify-end text-white font-semibold">
                 <div className="mr-2">
-                  Your Progress: <span className="ml-1">3/3</span>
+                  Your Progress: <span className="ml-1">2/3</span>
                 </div>
                 <div className="cursor-pointer">
                   <img className="w-6 h-6" src={btnCancel} alt="" />
@@ -65,7 +70,9 @@ const Modul = () => {
             </div>
 
             {/* content */}
-            <div className="flex-grow overflow-y-auto px-6 max-h-screen">{pages}</div>
+            <div className="flex-grow overflow-y-auto px-6 max-h-screen">
+              {pages}
+            </div>
 
             <div className="flex flex-col text-black font-semibold mx-16 py-4">
               <div className="">About Lesson</div>

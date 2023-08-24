@@ -14,6 +14,7 @@ import noEmpat from "../assets/gambar/4.png";
 import noLima from "../assets/gambar/5.png";
 import noEnam from "../assets/gambar/6.png";
 import aboutUs from "../assets/gambar/aboutus.png";
+import Logo from "../assets/icon/logo.svg";
 
 import Navbar from "../components/Navbar";
 
@@ -431,11 +432,7 @@ function Home() {
             <div className="md:flex md:justify-between">
               <div className="mb-6 md:mb-0">
                 <a href="." className="flex items-center">
-                  <img
-                    src="https://flowbite.com/docs/images/logo.svg"
-                    className="h-8 mr-3"
-                    alt="FlowBite Logo"
-                  />
+                  <img src={Logo} className="h-8 mr-3" alt="FlowBite Logo" />
                   <span className="self-center text-2xl font-semibold whitespace-nowraptext-white">
                     EduSpeak
                   </span>
