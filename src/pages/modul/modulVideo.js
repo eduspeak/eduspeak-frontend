@@ -25,7 +25,7 @@ function Modulv() {
               </div>
               <div className="flex flex-row justify-end text-white font-semibold">
                 <div className="mr-2">
-                  Your Progress: <span className="ml-1">3/3</span>
+                  Your Progress: <span className="ml-1">1/3</span>
                 </div>
                 <div className="cursor-pointer">
                   <img className="w-6 h-6" src={btnCancel} alt="" />

@@ -1,37 +1,38 @@
 import { Link } from "react-router-dom";
 import LoginModal from "../../components/login/LoginModal";
 
-import { useState } from "react";
+// import { useState } from "react";
 
-import User from "../../assets/gambar/user.jpg";
+// import User from "../../assets/gambar/user.jpg";
+import Logo from "../../assets/icon/logo.svg";
 
 function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
   // Untuk Tombol Hide Show
-  const ArrowUp = (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      data-name="Layer 1"
-      className="h-5 w-5 text-white"
-      viewBox="0 0 32 32"
-      id="up-arrow"
-    >
-      <path d="M26 22a2 2 0 0 1-1.41-.59L16 12.83l-8.59 8.58a2 2 0 0 1-2.82-2.82l10-10a2 2 0 0 1 2.82 0l10 10A2 2 0 0 1 26 22Z"></path>
-    </svg>
-  );
+  // const ArrowUp = (
+  //   <svg
+  //     xmlns="http://www.w3.org/2000/svg"
+  //     data-name="Layer 1"
+  //     className="h-5 w-5 text-white"
+  //     viewBox="0 0 32 32"
+  //     id="up-arrow"
+  //   >
+  //     <path d="M26 22a2 2 0 0 1-1.41-.59L16 12.83l-8.59 8.58a2 2 0 0 1-2.82-2.82l10-10a2 2 0 0 1 2.82 0l10 10A2 2 0 0 1 26 22Z"></path>
+  //   </svg>
+  // );
 
-  const ArrowDown = (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      data-name="Layer 1"
-      className="h-5 w-5 text-white"
-      viewBox="0 0 32 32"
-      id="down-arrow"
-    >
-      <path d="M16 22a2 2 0 0 1-1.41-.59l-10-10a2 2 0 0 1 2.82-2.82L16 17.17l8.59-8.58a2 2 0 0 1 2.82 2.82l-10 10A2 2 0 0 1 16 22Z"></path>
-    </svg>
-  );
+  // const ArrowDown = (
+  //   <svg
+  //     xmlns="http://www.w3.org/2000/svg"
+  //     data-name="Layer 1"
+  //     className="h-5 w-5 text-white"
+  //     viewBox="0 0 32 32"
+  //     id="down-arrow"
+  //   >
+  //     <path d="M16 22a2 2 0 0 1-1.41-.59l-10-10a2 2 0 0 1 2.82-2.82L16 17.17l8.59-8.58a2 2 0 0 1 2.82 2.82l-10 10A2 2 0 0 1 16 22Z"></path>
+  //   </svg>
+  // );
 
   return (
     <nav className="bg-[#007991] sticky top-0 z-50 w-full">
@@ -59,11 +60,7 @@ function Navbar() {
           </svg>
         </button>
         <a href="." className="flex items-center">
-          <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="h-8 mr-3"
-            alt="Flowbite Logo"
-          />
+          <img src={Logo} className="h-12 mr-3" alt="Flowbite Logo" />
         </a>
         <button
           data-collapse-toggle="navbar-default"
