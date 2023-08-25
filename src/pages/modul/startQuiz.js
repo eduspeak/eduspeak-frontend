@@ -1,9 +1,21 @@
 import Sidebar from "../../components/Sidebar";
 import Navbar from "../../components/Navbar";
 import SidebarModul from "../../components/Sidebar/sidebarModul";
-import React, { useState } from "react";
+
+import axios from "axios";
+import Endpoint from "../../../src/utils/endpoints";
+import { useEffect, useState } from "react";
 
 function StartQuiz() {
+  async function getFeedback() {
+    const response = await axios(Endpoint.Feedback);
+    console.log(response.data);
+  }
+
+  useEffect(() => {
+    getFeedback();
+  }, []);
+
   const [quizNumber, setQuizNumber] = useState(1);
 
   const handleNextClick = () => {
