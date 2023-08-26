@@ -25,7 +25,7 @@ jobs:
         run: npm run build
 
       - name: Deploy Using ssh
-        uses: kelompok_1/ssh-action@master
+        uses: kelompok1/ssh-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
@@ -36,18 +36,3 @@ jobs:
             git clone https://github.com/eduspeak/eduspeak-frontend -b main
             cd eduspeak-frontend
             git pull origin main
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-      - name: Install SSH keys
-        run: |
-          mkdir -p ~/.ssh/
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
