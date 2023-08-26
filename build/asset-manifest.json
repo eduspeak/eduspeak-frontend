@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e370f20.css",
+    "main.js": "/static/js/main.16daca5c.js",
+    "static/js/787.da3d95e6.chunk.js": "/static/js/787.da3d95e6.chunk.js",
+    "static/media/page12.png": "/static/media/page12.c06e286277214ee790d0.png",
+    "static/media/page3.png": "/static/media/page3.45da5bddeba09ca6b56c.png",
+    "static/media/page4.png": "/static/media/page4.b4801d723304f4f59c2d.png",
+    "static/media/page7.png": "/static/media/page7.00a9c5c553af3a46b808.png",
+    "static/media/page2.png": "/static/media/page2.18252e16db27ea215da7.png",
+    "static/media/page8.png": "/static/media/page8.00b7bc36af4723eecec1.png",
+    "static/media/page6.png": "/static/media/page6.b42610441ca8de5c1157.png",
+    "static/media/page5.png": "/static/media/page5.b761a84fe52873835faa.png",
+    "static/media/page11.png": "/static/media/page11.8a330d77e30763f20764.png",
+    "static/media/page10.png": "/static/media/page10.3b5f97875954bf408395.png",
+    "static/media/page9.png": "/static/media/page9.b8209710fddb6fbd70f9.png",
+    "static/media/model-utama.png": "/static/media/model-utama.0f01358aaf9cf8a27eba.png",
+    "static/media/page1.png": "/static/media/page1.530d36e75f04be76f0e4.png",
+    "static/media/partners-sttnf.png": "/static/media/partners-sttnf.431cdd7c6955488d31bb.png",
+    "static/media/aboutus.png": "/static/media/aboutus.e7850f8332adcff494a8.png",
+    "static/media/partners-gdsc.png": "/static/media/partners-gdsc.9ccc7dd9d3d07e2ec112.png",
+    "static/media/dumy_courses.png": "/static/media/dumy_courses.8b5b3fcbf7876247083a.png",
+    "static/media/active.png": "/static/media/active.af44b348e628c714563d.png",
+    "static/media/logo.svg": "/static/media/logo.1632cba918c118858bdca372ee9b60b5.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "static/media/close.svg": "/static/media/close.62d542d8225e9ae56794bdce0b546338.svg",
+    "main.4e370f20.css.map": "/static/css/main.4e370f20.css.map",
+    "main.16daca5c.js.map": "/static/js/main.16daca5c.js.map",
+    "787.da3d95e6.chunk.js.map": "/static/js/787.da3d95e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e370f20.css",
+    "static/js/main.16daca5c.js"
+  ]
+}
