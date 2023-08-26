@@ -24,8 +24,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Deploy Using ssh
-        uses: kelompok1/ssh-action@master
+      - name: Deploy Using SSH
+        uses: kelompok_1/ssh-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
@@ -33,6 +33,9 @@ jobs:
           port: 22
           script: |
             cd /var/www/html/
-            git clone https://github.com/eduspeak/eduspeak-frontend -b main
-            cd eduspeak-frontend
-            git pull origin main
+            if [ -d "eduspeak-frontend" ]; then
+              cd eduspeak-frontend
+              git pull origin main
+            else
+              git clone https://github.com/eduspeak/eduspeak-frontend -b main
+            fi
