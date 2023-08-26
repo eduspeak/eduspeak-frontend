@@ -36,14 +36,14 @@ jobs:
       - name: Deploy Using SSH
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.PRIVATE_KEY }}
           port: 22
           script: |
             cd /var/www/html/
-            if [ -d "eduspeak-frontend" ]; then
-              cd eduspeak-frontend
+            if [ -d "eduspeak" ]; then
+              cd eduspeak
               git pull origin main
             else
               git clone https://github.com/eduspeak/eduspeak-frontend -b main
