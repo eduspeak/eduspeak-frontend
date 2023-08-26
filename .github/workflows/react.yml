@@ -24,8 +24,17 @@ jobs:
       - name: Build
         run: npm run build
 
+  deploy:
+    name: deploy to server
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
       - name: Deploy Using SSH
-        uses: kelompok_1/ssh-action@master
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
